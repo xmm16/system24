@@ -16,7 +16,6 @@
 
 /* customize things here */
 :root {
-	--font: 'DM Mono'; /* UI font name. it must be installed on your system. */
 	letter-spacing: 0; /* decreases letter spacing for better readability. */
 	font-weight: 400; /* UI font weight. */
 	--label-font-weight: 400; /* font weight for panel labels. */

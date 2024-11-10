@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
-	--font: 'DM Mono';
+	--font: 'FantasqueSansM Nerd Font';
 	letter-spacing: -0.05ch;
 	font-weight: 300;
 	--label-font-weight: 500;
@@ -181,7 +179,7 @@ svg[class^=slider_] > rect[fill='white'] /* settings checkbuttons slider */ {
 	width: var(--pad);
 }
 .timestamp_f9f2ca.latin24CompactTimeStamp_f9f2ca {
-    width: 3.3rem;
+	width: 3.3rem;
 }
 
 /* fix inbox overflow and hiding window controls */
@@ -245,7 +243,7 @@ svg[class^=slider_] > rect[fill='white'] /* settings checkbuttons slider */ {
 
 /* fix double left border at friends' activity now lane */
 .scroller_bf550a {
-    border-left: 0px solid var(--background-modifier-accent);
+	border-left: 0px solid var(--background-modifier-accent);
 }
 
 /*"ReadAllNotifications" button*/
@@ -905,16 +903,16 @@ html.theme-light {
 
 /* begin 909 commits */
 ::placeholder {
-  color: var(--txt-3)!important;
+	color: var(--txt-3) !important;
 }
 ::selection {
-  color: var(--bg-0);
-  background: var(--txt-1);
+	color: var(--bg-0);
+	background: var(--txt-1);
 }
-[class^=callContainer_] {
-  overflow: visible;
-  background: none!important;
-  overflow-x: hidden;
+[class^='callContainer_'] {
+	overflow: visible;
+	background: none !important;
+	overflow-x: hidden;
 	border-radius: var(--panel-roundness);
 	border: var(--border-width) solid var(--border-color);
 	transition: border-color var(--border-transition);
@@ -925,15 +923,15 @@ html.theme-light {
 		}
 	}
 }
-[class^=callContainer_] [class^=topControls_] section {
-  border: none;
-  &::after {
-    content: '';
-  }
+[class^='callContainer_'] [class^='topControls_'] section {
+	border: none;
+	&::after {
+		content: '';
+	}
 }
 [class^='callContainer_']::after {
 	content: 'call';
-  display: block;
+	display: block;
 	color: var(--txt-3);
 	font-weight: var(--label-font-weight);
 	position: absolute;
@@ -946,16 +944,16 @@ html.theme-light {
 }
 
 .wrapper_fea3ef.hidden_fea3ef {
-  display: none;
+	display: none;
 }
 
-[class^=gradientTop_],
-[class^=gradientBottom_] {
-  display: none!important;
+[class^='gradientTop_'],
+[class^='gradientBottom_'] {
+	display: none !important;
 }
-[class^=topControls_],
-[class^=bottomControls_] {
-  opacity: 1!important;
-  transform: none!important;
+[class^='topControls_'],
+[class^='bottomControls_'] {
+	opacity: 1 !important;
+	transform: none !important;
 }
 /* end 909 commits */
