@@ -1,4 +1,13 @@
+* {
+	image-rendering: high-quality;
+	shape-rendering: geometricPrecision;
+	text-rendering: geometricPrecision;
+}
+
 :root {
+	image-rendering: high-quality;
+	shape-rendering: geometricPrecision;
+	text-rendering: geometricPrecision;
 	--font: 'FantasqueSansM Nerd Font';
 	letter-spacing: -0.05ch;
 	font-weight: 300;
